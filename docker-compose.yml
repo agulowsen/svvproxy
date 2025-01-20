@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  svvproxy:
+    image: svv-proxy
+    ports:
+      - "8080:8080"
